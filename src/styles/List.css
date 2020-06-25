@@ -1,0 +1,23 @@
+.booksList {
+  outline: none;
+  border: solid #999;
+  border-width: 0 1px 1px;
+}
+.booksList .Row {
+  border-bottom: 1px solid #999;
+  flex-direction: column;
+}
+.booksList .Row .rowHeader{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.booksList .Row .rowHeader .moveBookLink {
+  cursor: pointer;
+}
+.tagsList .tag {
+  display: inline-block;
+  background-color: #ddd;
+  margin: 2px;
+  cursor: pointer;
+}

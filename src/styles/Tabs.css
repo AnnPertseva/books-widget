@@ -1,0 +1,16 @@
+.tabs{
+  display: flex;
+  border-left: 1px solid #999;
+}
+.tabs .tab {
+  border: solid #999;
+  border-width: 1px 1px 1px 0;
+  flex-grow: 1;
+  text-decoration: none;
+  color: #000;
+}
+.tabs .tab.active {
+  border-bottom: none;
+  pointer-events: none;
+  font-weight: bold;
+}
